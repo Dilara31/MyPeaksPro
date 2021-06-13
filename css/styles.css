@@ -1,7 +1,15 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 .logo {
   background: url(../img/m-h-day.jpg);
   padding: 25px 100px 100px 100px;
   border-radius: 0 0 35% 0;
+}
+
+.bgc {
+  background-color: darkcyan;
 }
 
 div > p {
@@ -17,14 +25,16 @@ div > p {
 
 h1 {
   margin: 100px 0;
-  font-size: 100px;
-  max-width: 60%;
+  font-size: 70px;
+  max-width: 50%;
 }
 
 .label {
   margin: 50px 0;
   font-size: 20px;
-   max-width: 60%;
+  max-width: 50%;
+  line-height: 1.5;
+  opacity: 50%;
 }
 
 .nav {
@@ -37,7 +47,7 @@ h1 {
   margin: 100px 0px;
 }
 
-.nav > button {
+button {
   width: 150px;
   height: 50px;
   font-size: 20px;
@@ -46,7 +56,7 @@ h1 {
   font-weight: 600;
 }
 
-.nav > button:hover {
+ button:hover {
   background-color: green;
   cursor: pointer;
   transition: all 0.5s;
@@ -61,4 +71,65 @@ h1 {
   color: green;
   cursor: pointer;
   transition: all 0.5s;
+}
+
+h2 {
+  margin: 50px 50px 20px;
+  font-size: 30px;
+}
+
+main > article {
+  display: flex;
+  max-width: 60%;
+  flex-direction: row;
+  margin: 20px 20%;
+  line-height: 2;
+  padding: 15px;
+  background-color: #29293d;
+  color: white;
+  border-radius: 10px;
+}
+
+main > article > div {
+  padding: 0 50px;
+}
+h3 {
+  text-align: center;
+}
+main > article > div > a {
+  color: white;
+  text-align: center;
+}
+main > article > div > p {
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.logofoot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+footer {
+  background-color: #29293d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  max-width: 65%;
+  margin: 80px 17% 0 17%;
+  background: linear-gradient(95deg, #40bf40, #3399ff);
+  padding: 0 50px 50px 0;
+  border-radius: 10px;
 }
