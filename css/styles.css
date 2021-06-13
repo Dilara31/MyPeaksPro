@@ -117,7 +117,7 @@ footer {
   background-color: #29293d;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: white;
   padding: 30px;
 }
